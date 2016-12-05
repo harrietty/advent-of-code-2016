@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-register **/*/spec.js"
+    "test": "mocha --compilers js:babel-register **/*/*.spec.js"
   },
   "keywords": [],
   "author": "",
