@@ -5,7 +5,7 @@ import { countPossibleTris } from './main';
 
 let data = fs.readFileSync(path.join(__dirname, './data.txt'), 'utf8');
 
-describe.only('countPossibleTris', () => {
+describe('countPossibleTris', () => {
   it('should be a function', () => {
     expect(countPossibleTris).to.be.a('function');
   });
