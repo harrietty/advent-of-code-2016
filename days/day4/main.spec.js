@@ -10,7 +10,7 @@ totally-real-room-200[decoy]
 a-b-c-d-e-f-g-h-987[abcde]
 not-a-real-room-404[oarel]`;
 
-describe.only('checkValidRoom', () => {
+describe('checkValidRoom', () => {
   it('is a function', () => {
     expect(checkValidRoom).to.be.a('function');
   });
