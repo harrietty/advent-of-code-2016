@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { makeHash, beginsWithZeroes, getPassword } from './main.js';
+import { makeHash, beginsWithZeroes } from './main.js';
 
 const input = 'cxdnnyjw';
 
@@ -15,11 +15,4 @@ describe('crypto challenge', () => {
       done();
     });
   });
-  describe('getPassword', () => {
-    it('returns 18f47a30 for door id abc', (done) => {
-      console.log(getPassword('cxdnnyjw'));
-      // expect(getPassword('abc')).to.equal('18f47a30');
-      done();
-    });
-  });
-})
+});
